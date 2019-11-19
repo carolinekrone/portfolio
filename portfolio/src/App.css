@@ -1,38 +1,38 @@
 .App {
-  background-color: #282c34;
+  background-color: #151515;
   justify-content: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  font-family: "Roboto";
 }
 
 .App-header {
-  background-color: #282c34;
-  padding: 2%;
-  min-height: 10vh;
+  box-shadow: 0 3px 5px rgba(68, 68, 68, 0.6);
+  padding: 2% 2% 2% 0;
   font-size: calc(10px + 1vmin);
   color: white;
 }
 
-.nav {
-  background-color: #282c34;
-  min-height: 10vh;
-  font-size: calc(10px + 1vmin);
-  color: white;
+.App-header :link {
+  color: #ffffff;
 }
 
-.welcome {
-  background-color: #282c34;
+a:hover {
+  color: #ffffff;
+  background-color: #5918df;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Welcome {
+  width: 80vw;
+  max-width: 1500px;
   min-height: 90vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-weight: 300;
+  font-size: calc(20px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }

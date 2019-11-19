@@ -7,34 +7,45 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <nav className="nav">
-          <Grid direction="row" justifyContent="space-between">
-            <Cell xs={5} lg={5}></Cell>
-            <Cell xs={6} lg={6}>
-              <a href="#acessibilidade">Acessibilidade</a>
-              <a href="#talks">Talks</a>
-              <a href="#contato">Bora trocar uma ideia?</a>
-            </Cell>
-          </Grid>
-        </nav>
-      </header>
-      <section className="welcome">
-        <Grid>
-          <Cell xs={6}>
-            <h1>
-              ¡Holla! <span>&#128075;</span>
-            </h1>
-            <p>
-              Uma UX Designer lutando para tornar boas ideias mais acessíveis.{" "}
-              Criei esse site para aprender mais sobre React. Vou compartilhar
-              conteúdos sobre Acessibilidade e Design Systems.
-            </p>
+        <Grid direction="row" justifyContent="flex-end">
+          <Cell>
+            <a href="#about">About</a>
           </Cell>
           <Cell>
-            <img src={"/yo.png"} alt="illustration" />
+            <a href="#talks">Talks</a>
+          </Cell>
+          <Cell>
+            <a href="#contact">Contact</a>
           </Cell>
         </Grid>
-      </section>
+      </header>
+      <div className="Container">
+        <section className="Welcome">
+          <Grid
+            direction="row"
+            alignItems="center"
+            justifyContent="space-between"
+          >
+            <Cell xs={12} lg={8}>
+              <h1>
+                Hi, I'm Carol! <span>&#128075;</span>{" "}
+              </h1>
+              <p>
+                A 24-years-old product designer based in Florianópolis/SC,
+                fighting to make good ideas more accessible. Currently I’m
+                working at Laboratório Bridge - UFSC.
+              </p>
+            </Cell>
+            <Cell lg={3}>
+              <img
+                src={"/yo.png"}
+                alt="illustration with a blong girl smiling"
+              />
+            </Cell>
+          </Grid>
+        </section>
+        <section id="#work"></section>
+      </div>
     </div>
   );
 };
