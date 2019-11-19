@@ -20,19 +20,20 @@ a:hover {
   background-color: #5918df;
 }
 
+a:visited {
+  color: #ffffff;
+}
+
 .Container {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .Welcome {
-  width: 80vw;
   max-width: 1500px;
   min-height: 90vh;
   display: flex;
   font-weight: 300;
-  font-size: calc(20px + 2vmin);
+  font-size: calc(22px + 2vmin);
   color: white;
 }

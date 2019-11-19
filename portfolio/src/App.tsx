@@ -12,7 +12,7 @@ const App: React.FC = () => {
             <a href="#about">About</a>
           </Cell>
           <Cell>
-            <a href="#talks">Talks</a>
+            <a href="#work">Talks</a>
           </Cell>
           <Cell>
             <a href="#contact">Contact</a>
@@ -24,7 +24,7 @@ const App: React.FC = () => {
           <Grid
             direction="row"
             alignItems="center"
-            justifyContent="space-between"
+            justifyContent="space-around"
           >
             <Cell xs={12} lg={8}>
               <h1>
@@ -38,9 +38,25 @@ const App: React.FC = () => {
             </Cell>
             <Cell lg={3}>
               <img
-                src={"/yo.png"}
-                alt="illustration with a blong girl smiling"
+                src={"/yo.svg"}
+                alt="illustration off a blong girl smiling"
               />
+            </Cell>
+          </Grid>
+        </section>
+        <section id="#about" className="SocialLinks">
+          <Grid direction="column">
+            <Cell>
+              <a href="www.linkedin/profile/carolinekrone" target="_blank">
+                Linkedin
+              </a>
+            </Cell>
+            <Cell>
+              <p>
+                A 24-years-old product designer based in Florianópolis/SC,
+                fighting to make good ideas more accessible. Currently I’m
+                working at Laboratório Bridge - UFSC.
+              </p>
             </Cell>
           </Grid>
         </section>
