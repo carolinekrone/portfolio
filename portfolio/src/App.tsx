@@ -21,18 +21,21 @@ const App: React.FC = () => {
       </header>
       <div className="Container">
         <section className="Welcome">
-          <Grid direction="row" alignItems="center" justifyContent="center">
-            <Cell xs={12} lg={8}>
+          <Grid
+            direction="row"
+            alignItems="center"
+            justifyContent="space-around"
+          >
+            <Cell xs={12} lg={7}>
               <h1>
                 Hi, I'm Carol! <span>&#128075;</span>{" "}
               </h1>
               <p>
-                A 24-years-old product designer based in Florianópolis/SC,
-                fighting to make good ideas more accessible. Currently I’m
-                working at Laboratório Bridge - UFSC.
+                A product designer based in Florianópolis/SC, fighting to make
+                good ideas more accessible.
               </p>
             </Cell>
-            <Cell lg={3}>
+            <Cell lg={2}>
               <img
                 src={"/yo.svg"}
                 alt="illustration off a blong girl smiling"
@@ -40,23 +43,53 @@ const App: React.FC = () => {
             </Cell>
           </Grid>
         </section>
-        <section id="#about" className="SocialLinks">
-          <Grid direction="column">
-            <Cell>
-              <a href="www.linkedin/profile/carolinekrone" target="_blank">
+        <section id="#about" className="About">
+          <h2>Stay in touch :)</h2>
+          <Grid
+            direction="row"
+            alignItems="baseline"
+            justifyContent="space-around"
+          >
+            <Cell xs={12} lg={7} className="SocialLinks">
+              <a
+                href="https://www.linkedin.com/in/carolinekrone/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Linkedin
               </a>
+              <a
+                href="https://www.behance.net/kronecaroline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Behance
+              </a>
+              <a
+                href="https://github.com/carolinekrone"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
             </Cell>
-            <Cell>
+            <Cell xs={12} lg={5}>
               <p>
-                A 24-years-old product designer based in Florianópolis/SC,
-                fighting to make good ideas more accessible. Currently I’m
-                working at Laboratório Bridge - UFSC.
+                I'm a 24-years-old product designer based in Florianópolis/SC,
+                currently working at Laboratório Bridge - UFSC. I believe great
+                design is the result of a deep process understanding the problem
+                you’re trying to solve, combined with a beautifully executed
+                solution. At my spare time, you can probably find me xx,
+                exploring somewhere or reading a good book.
               </p>
             </Cell>
           </Grid>
         </section>
-        <section id="#work"></section>
+        <section id="#about">
+          <Grid direction="row" alignItems="center" justifyContent="center">
+            <Cell></Cell>
+          </Grid>
+        </section>
       </div>
     </div>
   );
