@@ -21,11 +21,7 @@ const App: React.FC = () => {
       </header>
       <div className="Container">
         <section className="Welcome">
-          <Grid
-            direction="row"
-            alignItems="center"
-            justifyContent="space-around"
-          >
+          <Grid direction="row" alignItems="center" justifyContent="center">
             <Cell xs={12} lg={8}>
               <h1>
                 Hi, I'm Carol! <span>&#128075;</span>{" "}

@@ -1,6 +1,5 @@
 .App {
   background-color: #151515;
-  justify-content: center;
   font-family: "Roboto";
 }
 
@@ -15,6 +14,12 @@
   color: #ffffff;
 }
 
+.Container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 a:hover {
   color: #ffffff;
   background-color: #5918df;
@@ -22,11 +27,6 @@ a:hover {
 
 a:visited {
   color: #ffffff;
-}
-
-.Container {
-  justify-content: center;
-  align-items: center;
 }
 
 .Welcome {
