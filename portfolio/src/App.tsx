@@ -12,7 +12,7 @@ const App: React.FC = () => {
             <a href="#about">About</a>
           </Cell>
           <Cell>
-            <a href="#work">Talks</a>
+            <a href="#work">Work</a>
           </Cell>
           <Cell>
             <a href="#contact">Contact</a>
@@ -44,13 +44,13 @@ const App: React.FC = () => {
           </Grid>
         </section>
         <section id="#about" className="About">
-          <h2>Stay in touch :)</h2>
           <Grid
             direction="row"
             alignItems="baseline"
             justifyContent="space-around"
           >
             <Cell xs={12} lg={7} className="SocialLinks">
+              <p className="SectionTitle">Stay in touch :)</p>
               <a
                 href="https://www.linkedin.com/in/carolinekrone/"
                 target="_blank"
@@ -74,20 +74,25 @@ const App: React.FC = () => {
               </a>
             </Cell>
             <Cell xs={12} lg={5}>
+              <br></br>
               <p>
                 I'm a 24-years-old product designer based in Florianópolis/SC,
-                currently working at Laboratório Bridge - UFSC. I believe great
-                design is the result of a deep process understanding the problem
-                you’re trying to solve, combined with a beautifully executed
-                solution. At my spare time, you can probably find me xx,
-                exploring somewhere or reading a good book.
+                currently working at Laboratório Bridge (UFSC) and helping to
+                improve public health in Brazil. I believe that great design has
+                the power to transform the reality where it is inserted. At my
+                spare time, you can probably find me rowing (outrigger canoe),
+                trekking or reading a good book.
               </p>
+              <span>&#127817; &#127866;&#128758; &#127944;</span>
             </Cell>
           </Grid>
         </section>
-        <section id="#about">
+        <section id="#work">
           <Grid direction="row" alignItems="center" justifyContent="center">
             <Cell></Cell>
+            <Cell xs={12} lg={5}>
+              <br></br>
+            </Cell>
           </Grid>
         </section>
       </div>
