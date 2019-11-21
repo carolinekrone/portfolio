@@ -6,7 +6,7 @@ import "./App.css";
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="Header">
         <Grid direction="row" justifyContent="flex-end">
           <Cell>
             <a href="#about">About</a>
@@ -28,7 +28,7 @@ const App: React.FC = () => {
           >
             <Cell xs={12} lg={7}>
               <h1>
-                Hi, I'm Carol! <span>&#128075;</span>{" "}
+                Hello, I'm Carol! <span>&#128075;</span>{" "}
               </h1>
               <p>
                 A product designer based in Florianópolis/SC, fighting to make
@@ -83,7 +83,7 @@ const App: React.FC = () => {
                 spare time, you can probably find me rowing (outrigger canoe),
                 trekking or reading a good book.
               </p>
-              <span>&#127817; &#127866;&#128758; &#127944;</span>
+              <span>&#127817; &#127866; &#128758; &#127944; &#127754;</span>
             </Cell>
           </Grid>
         </section>

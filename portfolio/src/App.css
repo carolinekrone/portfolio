@@ -3,16 +3,20 @@
   font-family: "Roboto", Helvetica, sans-serif;
 }
 
-.App-header {
+.Header {
   box-shadow: 0 3px 5px rgba(68, 68, 68, 0.6);
   padding: 2% 2% 2% 0;
   font-size: calc(0.6rem + 1vmin);
   color: white;
 }
 
-.App-header :link {
+.Header a {
   color: #ffffff;
   padding: 1rem;
+}
+
+.Header a:visited {
+  color: #ffffff;
 }
 
 .Container {
@@ -24,9 +28,6 @@
 a:hover {
   color: #ffffff;
   background-color: #5918df;
-}
-
-a:visited {
 }
 
 .Welcome {
