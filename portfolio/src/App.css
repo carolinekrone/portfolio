@@ -13,6 +13,10 @@
 .Header a {
   color: #ffffff;
   padding: 1rem;
+  box-shadow: inset 0 0 0 0 #5918df;
+  -webkit-transition: ease-in 0.2s;
+  -moz-transition: ease-in 0.2s;
+  transition: ease-in 0.2s;
 }
 
 .Header a:visited {
@@ -27,7 +31,7 @@
 
 a:hover {
   color: #ffffff;
-  background-color: #5918df;
+  box-shadow: inset 400px 0 0 0 #5918df;
 }
 
 .Welcome {
@@ -63,6 +67,15 @@ a:hover {
 
 .SocialLinks a {
   text-decoration: none;
+  box-shadow: inset 0 0 0 0 #5918df;
+  -webkit-transition: ease-in 0.2s;
+  -moz-transition: ease-in 0.2s;
+  transition: ease-in 0.2s;
+}
+
+.SocialLinks a:hover {
+  color: #ffffff;
+  box-shadow: inset 400px 0 0 0 #5918df;
 }
 
 .SocialLinks a::after {
