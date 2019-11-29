@@ -1,6 +1,6 @@
 .App {
   background-color: #151515;
-  font-family: "Roboto", Helvetica, sans-serif;
+  font-family: "IBM Plex Sans", Helvetica, sans-serif;
 }
 
 .Header {
@@ -41,6 +41,7 @@ a:hover {
   font-weight: 300;
   font-size: calc(2rem + 2vmin);
   color: #fff;
+  font-family: "IBM Plex Serif", serif;
 }
 
 .About {
