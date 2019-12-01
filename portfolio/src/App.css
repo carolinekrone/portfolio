@@ -145,7 +145,7 @@ a:hover {
 }
 
 .About {
-  min-height: 90vh;
+  min-height: 70vh;
   color: #151515;
   background-color: #fff;
   font-size: calc(0.5rem + 2vmin);
@@ -158,10 +158,10 @@ a:hover {
   color: #002fa7;
   font-size: calc(0.5rem + 2vmin);
   font-weight: 600;
+  font-family: "IBM Plex Serif", serif;
 }
 
 .SocialLinks {
-  font-family: "IBM Plex Serif", serif;
   font-size: calc(0.85rem + 2vmin);
   font-weight: 400;
 }
@@ -207,9 +207,10 @@ a:hover {
 .Card {
   background-color: #fff;
   color: #151515;
-  padding: 10% 5% 10% 5%;
+  padding: 5% 5% 10% 5%;
   border-radius: 6px;
   box-shadow: 0 6px 16px 0 #3e3f428c;
+  font-size: calc(0.2rem + 2vmin);
 }
 
 .Card img {
@@ -217,9 +218,23 @@ a:hover {
 }
 
 .Card h3 {
-  font-family: "IBM Plex Serif", serif;
-  font-size: calc(0.5rem + 2vmin);
+  font-family: "IBM Plex Sans", sans;
+  font-size: calc(0.7rem + 2vmin);
   color: #002fa7;
-  font-weight: 400;
+  font-weight: 700;
   text-align: center;
+}
+
+.Card a {
+  color: #002fa7;
+}
+
+.Card a:hover {
+  color: #ffffff;
+  box-shadow: inset 400px 0 0 0 #002fa7;
+}
+
+.Card a::after {
+  text-decoration: none;
+  content: " →";
 }

@@ -8,17 +8,17 @@ const App: React.FC = () => {
     <div className="App">
       <header className="Header">
         <Grid direction="row" justifyContent="space-around">
-          <Cell xs={2} lg={8}>
+          <Cell xs={2} lg={9}>
             <img src="/logo.svg" alt="CK logo"></img>
           </Cell>
           <Cell>
-            <a href="#about">About</a>
+            <a href="/#about">About</a>
           </Cell>
           <Cell>
-            <a href="#work">Work</a>
+            <a href="/#work">Work</a>
           </Cell>
           <Cell>
-            <a href="#contact">Contact</a>
+            <a href="/#contact">Contact</a>
           </Cell>
         </Grid>
       </header>
@@ -30,11 +30,12 @@ const App: React.FC = () => {
                 Hello, I'm Carol! <span>&#128075;</span>{" "}
               </h1>
               <p>
-                For 4 years I've been a{" "}
-                <span className="Product Underline">product designer</span>{" "}
+                A <span className="Product Underline">product designer</span>{" "}
                 based in Florianópolis/SC{" "}
-                <span className="Floripa Underline">(Floripa mó querido)</span>,{" "}
-                fighting to make{" "}
+                <span className="Floripa Underline">
+                  (aka Floripa mó querido)
+                </span>
+                , fighting to make{" "}
                 <span className="Ideas Underline">good ideas</span> more
                 accessible.
                 <br></br>
@@ -43,7 +44,7 @@ const App: React.FC = () => {
             </Cell>
           </Grid>
         </section>
-        <section id="#about" className="About Grid">
+        <section id="about" className="About Grid">
           <Grid
             direction="row"
             alignItems="baseline"
@@ -90,13 +91,13 @@ const App: React.FC = () => {
             </Cell>
           </Grid>
         </section>
-        <section id="#work" className="Work">
+        <section id="work" className="Work">
           <Grid
             direction="column"
             alignItems="center"
             justifyContent="flex-start"
           >
-            <h2>Work</h2>
+            <h2>Work, work, work</h2>
             <span>Here you can find some of my latest work and projects.</span>
             <br></br>
           </Grid>
@@ -113,7 +114,12 @@ const App: React.FC = () => {
                   Bold is a open source and accessible design system developed
                   to the Laboratório Bridge.{" "}
                 </p>
-                <a href="https://bold.bridge.ufsc.br/en/">
+                <a
+                  href="https://bold.bridge.ufsc.br/en/"
+                  aria-label="Bold design system"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Go to Bold Design System
                 </a>
               </div>
@@ -121,48 +127,59 @@ const App: React.FC = () => {
             <Cell xs={12} lg={3}>
               <div className="Card">
                 <h3>TOT App</h3>
-                <img src="/tot-project.svg" alt="bold components"></img>
+                <img src="/tot-project.svg" alt="TOT App"></img>
                 <p>
                   Application developed to the professional speech therapists,
                   with the purpose of assisting them in the treatment of their
                   patients.{" "}
                 </p>
-                <a href="https://www.behance.net/gallery/75141515/TOT-Speech-Therapy-APP-UIUX-design">
+                <a
+                  href="https://www.behance.net/gallery/75141515/TOT-Speech-Therapy-APP-UIUX-design"
+                  aria-label="TOT APP on Behance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Checkout the TOT project
                 </a>
               </div>
             </Cell>
             <Cell xs={12} lg={3}>
               <div className="Card">
-                <h3>Bold design system</h3>
-                <img src="" alt="bold components"></img>
+                <h3>Acessibilidade digital</h3>
+                <img
+                  src="/acessibilidade-digital.png"
+                  alt="Acessibilidade digital site"
+                ></img>
                 <p>
-                  Bold is a open source and accessible design system developed
-                  to the Laboratório Bridge.{" "}
+                  Acessibilidade Digital (digital accessibility) is a site I
+                  created for my undergraduate thesis to test the accessibility
+                  of Bold components. There I also listed some important
+                  articles about the web accessibility.{" "}
                 </p>
+                <a
+                  href="https://carolinekrone.github.io/a11y-tests/"
+                  aria-label="Acessibilidade digital site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Learn more about accessibility (PT-BR)
+                </a>
               </div>
             </Cell>
           </Grid>
         </section>
-        <section id="#talks" className="About Grid">
+        <section id="talks" className="About Grid">
           <Grid
             direction="row"
             alignItems="baseline"
             justifyContent="space-around"
           >
-            <Cell xs={12} lg={7} className="SocialLinks">
+            <Cell xs={12} lg={7}>
               <p className="SectionTitle">Talks</p>
             </Cell>
             <Cell xs={12} lg={5}>
               <br></br>
-              <p>
-                I'm a 24-years-old product designer based in Florianópolis/SC,
-                currently working at Laboratório Bridge (UFSC) and helping to
-                improve public health in Brazil. I believe that great design has
-                the power to transform the reality where it is inserted. At my
-                spare time, you can probably find me rowing (outrigger canoe),
-                trekking or reading a good book.
-              </p>
+              <p>I like</p>
               <span>&#127817; &#127866; &#128758; &#127944; &#127754;</span>
             </Cell>
           </Grid>
