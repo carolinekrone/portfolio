@@ -45,13 +45,17 @@ const App: React.FC = () => {
           </Grid>
         </section>
         <section id="about" className="About">
+          <Grid direction="row" alignItems="baseline" justifyContent="center">
+            <Cell xs={10} lg={11}>
+              <p className="SectionTitle">Stay in touch</p>
+            </Cell>
+          </Grid>
           <Grid
             direction="row"
             alignItems="baseline"
             justifyContent="space-around"
           >
-            <Cell xs={10} lg={7} className="SocialLinks">
-              <p className="SectionTitle">Stay in touch</p>
+            <Cell className="SocialLinks" xs={12} lg={3}>
               <a
                 href="https://www.linkedin.com/in/carolinekrone/"
                 aria-label="Caroline Krone profile on Linkedin"
@@ -60,6 +64,8 @@ const App: React.FC = () => {
               >
                 Linkedin
               </a>
+            </Cell>
+            <Cell className="SocialLinks" xs={12} lg={3}>
               <a
                 href="https://www.behance.net/kronecaroline"
                 aria-label="Caroline Krone profile on Behance"
@@ -68,6 +74,8 @@ const App: React.FC = () => {
               >
                 Behance
               </a>
+            </Cell>
+            <Cell className="SocialLinks" xs={12} lg={3}>
               <a
                 href="https://github.com/carolinekrone"
                 aria-label="Caroline Krone profile on GitHub"
@@ -78,7 +86,6 @@ const App: React.FC = () => {
               </a>
             </Cell>
             <Cell xs={10} lg={5}>
-              <br></br>
               <p>
                 I'm a 24-years-old product designer based in Florianópolis/SC,
                 currently working at Laboratório Bridge (UFSC) and helping to
