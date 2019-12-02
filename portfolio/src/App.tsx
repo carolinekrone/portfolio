@@ -8,7 +8,7 @@ const App: React.FC = () => {
     <div className="App">
       <header className="Header">
         <Grid direction="row" justifyContent="space-around">
-          <Cell xs={2} lg={9}>
+          <Cell xs={1} lg={7}>
             <img src="/logo.svg" alt="CK logo"></img>
           </Cell>
           <Cell>
@@ -25,7 +25,7 @@ const App: React.FC = () => {
       <div className="Container">
         <section className="Welcome Grid">
           <Grid direction="row" alignItems="center" justifyContent="flex-start">
-            <Cell xs={11} lg={6}>
+            <Cell xs={12} lg={6}>
               <h1>
                 Hello, I'm Carol! <span>&#128075;</span>{" "}
               </h1>
@@ -44,13 +44,13 @@ const App: React.FC = () => {
             </Cell>
           </Grid>
         </section>
-        <section id="about" className="About Grid">
+        <section id="about" className="About">
           <Grid
             direction="row"
             alignItems="baseline"
             justifyContent="space-around"
           >
-            <Cell xs={12} lg={7} className="SocialLinks">
+            <Cell xs={10} lg={7} className="SocialLinks">
               <p className="SectionTitle">Stay in touch</p>
               <a
                 href="https://www.linkedin.com/in/carolinekrone/"
@@ -77,7 +77,7 @@ const App: React.FC = () => {
                 GitHub
               </a>
             </Cell>
-            <Cell xs={12} lg={5}>
+            <Cell xs={10} lg={5}>
               <br></br>
               <p>
                 I'm a 24-years-old product designer based in Florianópolis/SC,
@@ -92,14 +92,15 @@ const App: React.FC = () => {
           </Grid>
         </section>
         <section id="work" className="Work">
-          <Grid
-            direction="column"
-            alignItems="center"
-            justifyContent="flex-start"
-          >
-            <h2>Work, work, work</h2>
-            <span>Here you can find some of my latest work and projects.</span>
-            <br></br>
+          <Grid direction="column" alignItems="center" justifyContent="center">
+            <Cell xs={9}>
+              <h2>Work, work, work</h2>
+              <span>
+                Here you can find some of my latest work and projects.
+              </span>{" "}
+              <br></br>
+              <br></br>
+            </Cell>
           </Grid>
           <Grid
             direction="row"
@@ -168,20 +169,78 @@ const App: React.FC = () => {
             </Cell>
           </Grid>
         </section>
-        <section id="talks" className="About Grid">
+        <section className="Talks">
+          <Grid direction="column" alignItems="center" justifyContent="center">
+            <Cell lg={6} xs={10}>
+              <h2>Talks</h2>
+              <span>
+                Recently I've been lecturing on two topics that I love and
+                studied a lot about: accessibility and design systems. Enjoy and
+                keep sharing the knowledge.
+              </span>
+              <br></br>
+              <br></br>
+            </Cell>
+          </Grid>
           <Grid
             direction="row"
             alignItems="baseline"
             justifyContent="space-around"
           >
-            <Cell xs={12} lg={7}>
-              <p className="SectionTitle">Talks</p>
+            <Cell xs={10} lg={3}>
+              <div>
+                <h3>ILA Medellin 2019</h3>
+                <img src="/ILA.png" alt="Design System benefits"></img>
+                <br></br>
+                <a
+                  href="https://www.slideshare.net/CarolineKrone/bold-design-system-ila-medellin-19/"
+                  aria-label="ILA Medellin Talk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Bold Design System
+                </a>
+                <p>
+                  Talk presented at ILA 2019 Medellin/CO. How we build an
+                  accessible and open source design system to the Laboratorio
+                  Bridge.
+                </p>
+              </div>
             </Cell>
-            <Cell xs={12} lg={5}>
-              <br></br>
-              <p>I like</p>
-              <span>&#127817; &#127866; &#128758; &#127944; &#127754;</span>
+            <Cell xs={10} lg={3}>
+              <div>
+                <h3>GDG Product Meeting 2019</h3>
+                <img src="/GDG.png" alt="Design System benefits"></img>
+                <br></br>
+                <a href="https://docs.google.com/presentation/d/1t2v2YKCO4tXSuAdoafaw8vpHMH_cmHMuMYwb264jT4Y/edit?usp=sharing">
+                  Acessibilidade Digital
+                </a>
+                <p>
+                  Why accessibility is important and 9 tips for designers to
+                  build accessible products.
+                </p>
+              </div>
             </Cell>
+            <Cell xs={10} lg={3}>
+              <div>
+                <h3>Accessibility tests</h3>
+                <img src="/tests.png" alt="Accessibility tests"></img>
+                <br></br>
+                <a href="https://docs.google.com/presentation/d/1t2v2YKCO4tXSuAdoafaw8vpHMH_cmHMuMYwb264jT4Y/edit?usp=sharing">
+                  Accessibility tests
+                </a>
+                <p>
+                  Presentation of how to perform accessibility tests given to
+                  the bridge QA team.
+                </p>
+              </div>
+            </Cell>
+          </Grid>
+        </section>
+        <section id="contact">
+          <Grid>
+            <Cell></Cell>
+            <Cell></Cell>
           </Grid>
         </section>
       </div>
