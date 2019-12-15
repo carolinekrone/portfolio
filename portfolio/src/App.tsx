@@ -112,9 +112,9 @@ const App: React.FC = () => {
           <Grid
             direction="row"
             alignItems="stretch"
-            justifyContent="space-evenly"
+            justifyContent="space-around"
           >
-            <Cell xs={12} lg={3}>
+            <Cell xs={12} lg={5} alignSelf="stretch">
               <div className="Card">
                 <h3>Bold design system</h3>
                 <img src="/bold-components.svg" alt="bold components"></img>
@@ -132,7 +132,7 @@ const App: React.FC = () => {
                 </a>
               </div>
             </Cell>
-            <Cell xs={12} lg={3}>
+            <Cell xs={12} lg={5} alignSelf="stretch">
               <div className="Card">
                 <h3>TOT App</h3>
                 <img src="/tot-project.svg" alt="TOT App"></img>
@@ -151,7 +151,28 @@ const App: React.FC = () => {
                 </a>
               </div>
             </Cell>
-            <Cell xs={12} lg={3}>
+            <Cell xs={12} lg={5} alignSelf="stretch">
+              <div className="Card">
+                <h3>TOT App</h3>
+                <img src="/tot-project.svg" alt="Web redesign project"></img>
+                <p>
+                  Redesign of an financial website. The challenge was to
+                  organize the information architecture in a clear and
+                  synthesized way while ensuring that no important content was
+                  leaved out.{" "}
+                </p>
+                <a
+                  href="https://www.behance.net/gallery/89187653/Financial-website-redesign"
+                  aria-label="Redesign project on Behance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Checkout the redesign project
+                </a>
+              </div>
+            </Cell>
+
+            <Cell xs={12} lg={5} alignSelf="stretch">
               <div className="Card">
                 <h3>Acessibilidade digital</h3>
                 <img
@@ -205,7 +226,7 @@ const App: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Bold Design System
+                  Bold Design System (PT-BR)
                 </a>
                 <p>
                   Talk presented at ILA 2019 Medellin/CO. How we build an
@@ -220,7 +241,7 @@ const App: React.FC = () => {
                 <img src="/GDG.png" alt="Design System benefits"></img>
                 <br></br>
                 <a href="https://docs.google.com/presentation/d/1t2v2YKCO4tXSuAdoafaw8vpHMH_cmHMuMYwb264jT4Y/edit?usp=sharing">
-                  Acessibilidade Digital
+                  Acessibilidade Digital (PT-BR)
                 </a>
                 <p>
                   Why accessibility is important and 9 tips for designers to
@@ -234,7 +255,7 @@ const App: React.FC = () => {
                 <img src="/tests.png" alt="Accessibility tests"></img>
                 <br></br>
                 <a href="https://docs.google.com/presentation/d/1t2v2YKCO4tXSuAdoafaw8vpHMH_cmHMuMYwb264jT4Y/edit?usp=sharing">
-                  Accessibility tests
+                  Accessibility tests (PT-BR)
                 </a>
                 <p>
                   Presentation of how to perform accessibility tests given to
