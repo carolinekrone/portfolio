@@ -153,8 +153,8 @@ const App: React.FC = () => {
             </Cell>
             <Cell xs={12} lg={5} alignSelf="stretch">
               <div className="Card">
-                <h3>TOT App</h3>
-                <img src="/tot-project.svg" alt="Web redesign project"></img>
+                <h3>Financial website redesign</h3>
+                <img src="/abbilon.png" alt="Web redesign project"></img>
                 <p>
                   Redesign of an financial website. The challenge was to
                   organize the information architecture in a clear and
