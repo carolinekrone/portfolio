@@ -9,7 +9,7 @@ const App: React.FC = () => {
       <header className="Header">
         <Grid direction="row" justifyContent="space-around">
           <Cell xs={1} lg={7}>
-            <img src="/logo.svg" alt="CK logo"></img>
+            <img src={require("./static/image/logo.svg")} alt="CK logo"></img>
           </Cell>
           <Cell>
             <a href="/#about">About</a>
@@ -113,14 +113,20 @@ const App: React.FC = () => {
             direction="row"
             alignItems="stretch"
             justifyContent="space-around"
+            gap={0}
+            gapVertical={0}
           >
-            <Cell xs={12} lg={5} alignSelf="stretch">
+            <Cell xs={12} lg={6} alignSelf="stretch">
               <div className="Card">
                 <h3>Bold design system</h3>
-                <img src="/bold-components.svg" alt="bold components"></img>
+
+                <img
+                  src={require("./static/image/bold-components.svg")}
+                  alt="bold components"
+                ></img>
                 <p>
                   Bold is a open source and accessible design system developed
-                  to the Laboratório Bridge.{" "}
+                  to the Laboratório Bridge. Bold exports light and dark themes.{" "}
                 </p>
                 <a
                   href="https://bold.bridge.ufsc.br/en/"
@@ -132,10 +138,13 @@ const App: React.FC = () => {
                 </a>
               </div>
             </Cell>
-            <Cell xs={12} lg={5} alignSelf="stretch">
+            <Cell xs={12} lg={6} alignSelf="stretch">
               <div className="Card">
                 <h3>TOT App</h3>
-                <img src="/tot-project.svg" alt="TOT App"></img>
+                <img
+                  src={require("./static/image/tot-project.svg")}
+                  alt="TOT App"
+                ></img>
                 <p>
                   Application developed to the professional speech therapists,
                   with the purpose of assisting them in the treatment of their
@@ -151,10 +160,13 @@ const App: React.FC = () => {
                 </a>
               </div>
             </Cell>
-            <Cell xs={12} lg={5} alignSelf="stretch">
+            <Cell xs={12} lg={6} alignSelf="stretch">
               <div className="Card">
                 <h3>Financial website redesign</h3>
-                <img src="/abbilon.png" alt="Web redesign project"></img>
+                <img
+                  src={require("./static/image/abbilon.png")}
+                  alt="Web redesign project"
+                ></img>
                 <p>
                   Redesign of an financial website. The challenge was to
                   organize the information architecture in a clear and
@@ -172,11 +184,11 @@ const App: React.FC = () => {
               </div>
             </Cell>
 
-            <Cell xs={12} lg={5} alignSelf="stretch">
+            <Cell xs={12} lg={6} alignSelf="stretch">
               <div className="Card">
                 <h3>Acessibilidade digital</h3>
                 <img
-                  src="/acessibilidade-digital.png"
+                  src={require("./static/image/acessibilidade-digital.png")}
                   alt="Acessibilidade digital site"
                 ></img>
                 <p>
@@ -197,6 +209,77 @@ const App: React.FC = () => {
             </Cell>
           </Grid>
         </section>
+
+        <section>
+          <Grid direction="row" alignItems="stretch" gap={0} gapVertical={0}>
+            <Cell xs={12} lg={3} alignSelf="stretch" className="CardTest">
+              <h3>Bold design system</h3>
+              <p>
+                Bold is a open source and accessible design system developed to
+                the Laboratório Bridge. Bold exports light and dark themes.{" "}
+              </p>
+              <a
+                href="https://bold.bridge.ufsc.br/en/"
+                aria-label="Bold design system"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Go to Bold Design System
+              </a>
+            </Cell>
+            <Cell xs={12} lg={3} alignSelf="stretch" className="CardTest">
+              <h3>TOT App</h3>
+              <p>
+                Application developed to the professional speech therapists,
+                with the purpose of assisting them in the treatment of their
+                patients.{" "}
+              </p>
+              <a
+                href="https://www.behance.net/gallery/75141515/TOT-Speech-Therapy-APP-UIUX-design"
+                aria-label="TOT APP on Behance"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Checkout the TOT project
+              </a>
+            </Cell>
+            <Cell xs={12} lg={3} alignSelf="stretch" className="CardTest">
+              <h3>Financial website redesign</h3>
+              <p>
+                Redesign of an financial website. The challenge was to organize
+                the information architecture in a clear and synthesized way
+                while ensuring that no important content was leaved out.{" "}
+              </p>
+              <a
+                href="https://www.behance.net/gallery/89187653/Financial-website-redesign"
+                aria-label="Redesign project on Behance"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Checkout the redesign project
+              </a>
+            </Cell>
+
+            <Cell xs={12} lg={3} alignSelf="stretch" className="CardTest">
+              <h3>Acessibilidade digital</h3>
+              <p>
+                Acessibilidade Digital (digital accessibility) is a site I
+                created for my undergraduate thesis to test the accessibility of
+                Bold components. There I also listed some important articles
+                about the web accessibility.{" "}
+              </p>
+              <a
+                href="https://carolinekrone.github.io/a11y-tests/"
+                aria-label="Acessibilidade digital site"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Learn more about accessibility
+              </a>
+            </Cell>
+          </Grid>
+        </section>
+
         <section className="Talks">
           <Grid direction="column" alignItems="center" justifyContent="center">
             <Cell lg={6} xs={10}>
@@ -218,7 +301,10 @@ const App: React.FC = () => {
             <Cell xs={10} lg={3}>
               <div>
                 <h3>ILA Medellin 2019</h3>
-                <img src="/ILA.png" alt="Design System benefits"></img>
+                <img
+                  src={require("./static/image//ILA.png")}
+                  alt="Design System benefits"
+                ></img>
                 <br></br>
                 <a
                   href="https://www.slideshare.net/CarolineKrone/bold-design-system-ila-medellin-19/"
@@ -238,7 +324,10 @@ const App: React.FC = () => {
             <Cell xs={10} lg={3}>
               <div>
                 <h3>GDG Product Meeting 2019</h3>
-                <img src="/GDG.png" alt="Design System benefits"></img>
+                <img
+                  src={require("./static/image/GDG.png")}
+                  alt="Design System benefits"
+                ></img>
                 <br></br>
                 <a href="https://docs.google.com/presentation/d/1t2v2YKCO4tXSuAdoafaw8vpHMH_cmHMuMYwb264jT4Y/edit?usp=sharing">
                   Acessibilidade Digital (PT-BR)
@@ -252,7 +341,10 @@ const App: React.FC = () => {
             <Cell xs={10} lg={3}>
               <div>
                 <h3>Accessibility tests</h3>
-                <img src="/tests.png" alt="Accessibility tests"></img>
+                <img
+                  src={require("./static/image/tests.png")}
+                  alt="Accessibility tests"
+                ></img>
                 <br></br>
                 <a href="https://docs.google.com/presentation/d/1t2v2YKCO4tXSuAdoafaw8vpHMH_cmHMuMYwb264jT4Y/edit?usp=sharing">
                   Accessibility tests (PT-BR)
@@ -266,7 +358,7 @@ const App: React.FC = () => {
           </Grid>
         </section>
         <section id="contact">
-          <Grid>
+          <Grid direction="row" alignItems="baseline" justifyContent="center">
             <Cell></Cell>
             <Cell></Cell>
           </Grid>
