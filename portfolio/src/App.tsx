@@ -109,110 +109,8 @@ const App: React.FC = () => {
               <br></br>
             </Cell>
           </Grid>
-          <Grid
-            direction="row"
-            alignItems="stretch"
-            justifyContent="space-around"
-            gap={0}
-            gapVertical={0}
-          >
-            <Cell xs={12} lg={6} alignSelf="stretch">
-              <div className="Card">
-                <h3>Bold design system</h3>
-
-                <img
-                  src={require("./static/image/bold-components.svg")}
-                  alt="bold components"
-                ></img>
-                <p>
-                  Bold is a open source and accessible design system developed
-                  to the Laboratório Bridge. Bold exports light and dark themes.{" "}
-                </p>
-                <a
-                  href="https://bold.bridge.ufsc.br/en/"
-                  aria-label="Bold design system"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Go to Bold Design System
-                </a>
-              </div>
-            </Cell>
-            <Cell xs={12} lg={6} alignSelf="stretch">
-              <div className="Card">
-                <h3>TOT App</h3>
-                <img
-                  src={require("./static/image/tot-project.svg")}
-                  alt="TOT App"
-                ></img>
-                <p>
-                  Application developed to the professional speech therapists,
-                  with the purpose of assisting them in the treatment of their
-                  patients.{" "}
-                </p>
-                <a
-                  href="https://www.behance.net/gallery/75141515/TOT-Speech-Therapy-APP-UIUX-design"
-                  aria-label="TOT APP on Behance"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Checkout the TOT project
-                </a>
-              </div>
-            </Cell>
-            <Cell xs={12} lg={6} alignSelf="stretch">
-              <div className="Card">
-                <h3>Financial website redesign</h3>
-                <img
-                  src={require("./static/image/abbilon.png")}
-                  alt="Web redesign project"
-                ></img>
-                <p>
-                  Redesign of an financial website. The challenge was to
-                  organize the information architecture in a clear and
-                  synthesized way while ensuring that no important content was
-                  leaved out.{" "}
-                </p>
-                <a
-                  href="https://www.behance.net/gallery/89187653/Financial-website-redesign"
-                  aria-label="Redesign project on Behance"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Checkout the redesign project
-                </a>
-              </div>
-            </Cell>
-
-            <Cell xs={12} lg={6} alignSelf="stretch">
-              <div className="Card">
-                <h3>Acessibilidade digital</h3>
-                <img
-                  src={require("./static/image/acessibilidade-digital.png")}
-                  alt="Acessibilidade digital site"
-                ></img>
-                <p>
-                  Acessibilidade Digital (digital accessibility) is a site I
-                  created for my undergraduate thesis to test the accessibility
-                  of Bold components. There I also listed some important
-                  articles about the web accessibility.{" "}
-                </p>
-                <a
-                  href="https://carolinekrone.github.io/a11y-tests/"
-                  aria-label="Acessibilidade digital site"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Learn more about accessibility (PT-BR)
-                </a>
-              </div>
-            </Cell>
-          </Grid>
-        </section>
-
-        <section>
           <Grid direction="row" alignItems="stretch" gap={0} gapVertical={0}>
-            <Cell xs={12} lg={3} alignSelf="stretch" className="CardTest">
+            <Cell xs={12} lg={3} alignSelf="stretch" className="Card">
               <h3>Bold design system</h3>
               <p>
                 Bold is a open source and accessible design system developed to
@@ -227,7 +125,7 @@ const App: React.FC = () => {
                 Go to Bold Design System
               </a>
             </Cell>
-            <Cell xs={12} lg={3} alignSelf="stretch" className="CardTest">
+            <Cell xs={12} lg={3} alignSelf="stretch" className="Card">
               <h3>TOT App</h3>
               <p>
                 Application developed to the professional speech therapists,
@@ -243,7 +141,7 @@ const App: React.FC = () => {
                 Checkout the TOT project
               </a>
             </Cell>
-            <Cell xs={12} lg={3} alignSelf="stretch" className="CardTest">
+            <Cell xs={12} lg={3} alignSelf="stretch" className="Card">
               <h3>Financial website redesign</h3>
               <p>
                 Redesign of an financial website. The challenge was to organize
@@ -260,7 +158,7 @@ const App: React.FC = () => {
               </a>
             </Cell>
 
-            <Cell xs={12} lg={3} alignSelf="stretch" className="CardTest">
+            <Cell xs={12} lg={3} alignSelf="stretch" className="Card">
               <h3>Acessibilidade digital</h3>
               <p>
                 Acessibilidade Digital (digital accessibility) is a site I
