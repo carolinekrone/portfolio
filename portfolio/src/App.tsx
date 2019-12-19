@@ -9,16 +9,19 @@ const App: React.FC = () => {
       <header className="Header">
         <Grid direction="row" justifyContent="space-around">
           <Cell xs={1} lg={7}>
-            <img src={require("./static/image/logo.svg")} alt="CK logo"></img>
+            <img
+              src={require("./static/image/logo-carol.svg")}
+              alt="CK logo"
+            ></img>
           </Cell>
           <Cell>
-            <a href="/#about">About</a>
+            <a href="/portfolio/#about">About</a>
           </Cell>
           <Cell>
-            <a href="/#work">Work</a>
+            <a href="/portfolio/#work">Work</a>
           </Cell>
           <Cell>
-            <a href="/#talks">Talks</a>
+            <a href="/portfolio/#talks">Talks</a>
           </Cell>
         </Grid>
       </header>
@@ -55,35 +58,37 @@ const App: React.FC = () => {
             alignItems="baseline"
             justifyContent="space-around"
           >
-            <Cell className="SocialLinks" xs={12} lg={3}>
-              <a
-                href="https://www.linkedin.com/in/carolinekrone/"
-                aria-label="Caroline Krone profile on Linkedin"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Linkedin
-              </a>
-            </Cell>
-            <Cell className="SocialLinks" xs={12} lg={3}>
-              <a
-                href="https://www.behance.net/kronecaroline"
-                aria-label="Caroline Krone profile on Behance"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Behance
-              </a>
-            </Cell>
-            <Cell className="SocialLinks" xs={12} lg={3}>
-              <a
-                href="https://github.com/carolinekrone"
-                aria-label="Caroline Krone profile on GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
+            <Cell xs={10} lg={5}>
+              <Cell className="SocialLinks">
+                <a
+                  href="https://www.linkedin.com/in/carolinekrone/"
+                  aria-label="Caroline Krone profile on Linkedin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Linkedin
+                </a>
+              </Cell>
+              <Cell className="SocialLinks">
+                <a
+                  href="https://www.behance.net/kronecaroline"
+                  aria-label="Caroline Krone profile on Behance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Behance
+                </a>
+              </Cell>
+              <Cell className="SocialLinks">
+                <a
+                  href="https://github.com/carolinekrone"
+                  aria-label="Caroline Krone profile on GitHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </Cell>
             </Cell>
             <Cell xs={10} lg={5}>
               <p>
@@ -295,10 +300,58 @@ const App: React.FC = () => {
           </Grid>
         </section>
         <footer id="contact" className="Contact">
-          <Grid direction="row" alignItems="center" justifyContent="center">
-            <Cell>
+          <Grid
+            direction="row"
+            alignItems="baseline"
+            justifyContent="space-between"
+          >
+            <Cell xs={12} lg={6}>
+              <div className="SocialLinks">
+                <a
+                  href="https://www.linkedin.com/in/carolinekrone/"
+                  aria-label="Caroline Krone profile on Linkedin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Linkedin
+                </a>
+              </div>
+              <div className="SocialLinks">
+                <a
+                  href="https://www.behance.net/kronecaroline"
+                  aria-label="Caroline Krone profile on Behance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Behance
+                </a>
+              </div>
+              <div className="SocialLinks">
+                <a
+                  href="https://github.com/carolinekrone"
+                  aria-label="Caroline Krone profile on GitHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </Cell>
+            <Cell xs={12} lg={5}>
+              <p className="BigText">Não se acanhe!</p>
               <p>
-                This site ia a WIP and is made with &#128147; +{" "}
+                Você também pode me contatar pelo e-mail{" "}
+                <a href="mailto:kronecaroline@gmail.com">
+                  kronecaroline@gmail.com
+                </a>
+                .
+              </p>
+            </Cell>
+          </Grid>
+          <Grid alignItems="center" className=" ">
+            <Cell lg={12}>
+              <p>
+                This site is a WIP and it's made with &#128147; +{" "}
                 <a
                   href="https://bold.bridge.ufsc.br/en/"
                   aria-label="Bold design system"
@@ -316,7 +369,7 @@ const App: React.FC = () => {
                 >
                   Create react app
                 </a>
-                . You can contact me by email kronecaroline@gmail.com{" "}
+                .
               </p>
             </Cell>
           </Grid>
