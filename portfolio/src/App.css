@@ -188,6 +188,7 @@ a:hover {
 }
 
 .Card {
+  margin: 0 2% 0 2% 0;
   text-align: left;
   min-height: 80vh;
   background-color: #fff;
@@ -264,6 +265,7 @@ a:hover {
 }
 
 .Contact {
+  margin: 0 2% 2% 2%;
   padding: 2%;
   font-size: 1rem;
   min-height: 10vh;

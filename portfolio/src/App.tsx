@@ -55,7 +55,7 @@ const App: React.FC = () => {
             alignItems="baseline"
             justifyContent="space-around"
           >
-            <Cell className="SocialLinks" xs={11} lg={3}>
+            <Cell className="SocialLinks" xs={12} lg={3}>
               <a
                 href="https://www.linkedin.com/in/carolinekrone/"
                 aria-label="Caroline Krone profile on Linkedin"
@@ -65,7 +65,7 @@ const App: React.FC = () => {
                 Linkedin
               </a>
             </Cell>
-            <Cell className="SocialLinks" xs={11} lg={3}>
+            <Cell className="SocialLinks" xs={12} lg={3}>
               <a
                 href="https://www.behance.net/kronecaroline"
                 aria-label="Caroline Krone profile on Behance"
@@ -241,12 +241,12 @@ const App: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Bold Design System (PT-BR)
+                  Bold Design System
                 </a>
                 <p>
                   Talk presented at ILA 2019 Medellin/CO. How we build an
                   accessible and open source design system to the Laboratorio
-                  Bridge.
+                  Bridge. (PT-BR)
                 </p>
               </div>
             </Cell>
@@ -258,12 +258,16 @@ const App: React.FC = () => {
                   alt="Design System benefits"
                 ></img>
                 <br></br>
-                <a href="https://docs.google.com/presentation/d/1t2v2YKCO4tXSuAdoafaw8vpHMH_cmHMuMYwb264jT4Y/edit?usp=sharing">
-                  Acessibilidade Digital (PT-BR)
+                <a
+                  href="https://docs.google.com/presentation/d/1t2v2YKCO4tXSuAdoafaw8vpHMH_cmHMuMYwb264jT4Y/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Acessibilidade Digital
                 </a>
                 <p>
                   Why accessibility is important and 9 tips for designers to
-                  build accessible products.
+                  build accessible products. (PT-BR)
                 </p>
               </div>
             </Cell>
@@ -275,18 +279,22 @@ const App: React.FC = () => {
                   alt="Accessibility tests"
                 ></img>
                 <br></br>
-                <a href="https://docs.google.com/presentation/d/1t2v2YKCO4tXSuAdoafaw8vpHMH_cmHMuMYwb264jT4Y/edit?usp=sharing">
-                  Accessibility tests (PT-BR)
+                <a
+                  href="https://docs.google.com/presentation/d/1t2v2YKCO4tXSuAdoafaw8vpHMH_cmHMuMYwb264jT4Y/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Accessibility tests
                 </a>
                 <p>
                   Presentation of how to perform accessibility tests given to
-                  the bridge QA team.
+                  the bridge QA team. (PT-BR)
                 </p>
               </div>
             </Cell>
           </Grid>
         </section>
-        <section id="contact" className="Contact">
+        <footer id="contact" className="Contact">
           <Grid direction="row" alignItems="center" justifyContent="center">
             <Cell>
               <p>
@@ -312,7 +320,7 @@ const App: React.FC = () => {
               </p>
             </Cell>
           </Grid>
-        </section>
+        </footer>
       </div>
     </div>
   );
