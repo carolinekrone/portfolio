@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1e60063c.chunk.css",
-    "main.js": "/portfolio/static/js/main.6f05f633.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6f05f633.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c2d25207.chunk.css",
+    "main.js": "/portfolio/static/js/main.26efa949.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.26efa949.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.86a05020.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.86a05020.js.map",
-    "static/js/2.960c75ea.chunk.js": "/portfolio/static/js/2.960c75ea.chunk.js",
-    "static/js/2.960c75ea.chunk.js.map": "/portfolio/static/js/2.960c75ea.chunk.js.map",
+    "static/js/2.e45f4238.chunk.js": "/portfolio/static/js/2.e45f4238.chunk.js",
+    "static/js/2.e45f4238.chunk.js.map": "/portfolio/static/js/2.e45f4238.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.233d4211ecfd2c0da70c4b131a2ffab1.js": "/portfolio/precache-manifest.233d4211ecfd2c0da70c4b131a2ffab1.js",
+    "precache-manifest.bdf1fd3dbd0042d31f57829982d0b5e6.js": "/portfolio/precache-manifest.bdf1fd3dbd0042d31f57829982d0b5e6.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.1e60063c.chunk.css.map": "/portfolio/static/css/main.1e60063c.chunk.css.map",
+    "static/css/main.c2d25207.chunk.css.map": "/portfolio/static/css/main.c2d25207.chunk.css.map",
     "static/media/GDG.png": "/portfolio/static/media/GDG.6e43ef75.png",
     "static/media/ILA.png": "/portfolio/static/media/ILA.4fabe2fb.png",
     "static/media/abbilon.png": "/portfolio/static/media/abbilon.80e8abb9.png",
     "static/media/acessibilidade-digital.png": "/portfolio/static/media/acessibilidade-digital.fa51e948.png",
-    "static/media/bold-components.svg": "/portfolio/static/media/bold-components.0a1bd5a3.svg",
-    "static/media/logo.svg": "/portfolio/static/media/logo.489a55f8.svg",
+    "static/media/bold-components.svg": "/portfolio/static/media/bold-components.d9ec5d53.svg",
+    "static/media/logo-carol.svg": "/portfolio/static/media/logo-carol.05fed91f.svg",
     "static/media/tests.png": "/portfolio/static/media/tests.e0850b04.png",
-    "static/media/tot-project.svg": "/portfolio/static/media/tot-project.da4e82d5.svg"
+    "static/media/tot-project.svg": "/portfolio/static/media/tot-project.c2a36ec6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.86a05020.js",
-    "static/js/2.960c75ea.chunk.js",
-    "static/css/main.1e60063c.chunk.css",
-    "static/js/main.6f05f633.chunk.js"
+    "static/js/2.e45f4238.chunk.js",
+    "static/css/main.c2d25207.chunk.css",
+    "static/js/main.26efa949.chunk.js"
   ]
 }

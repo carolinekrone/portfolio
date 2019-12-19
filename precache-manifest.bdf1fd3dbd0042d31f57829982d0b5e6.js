@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9482dd23d8d288e0ce4a89f580fe40b1",
+    "revision": "97152381476322c09c723a2b9cc22ed5",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "7812449d7e134b7f2bcf",
-    "url": "/portfolio/static/css/main.1e60063c.chunk.css"
+    "revision": "86f2120e6cbedf8d4d18",
+    "url": "/portfolio/static/css/main.c2d25207.chunk.css"
   },
   {
-    "revision": "e2a1fc5225093e7bb90c",
-    "url": "/portfolio/static/js/2.960c75ea.chunk.js"
+    "revision": "932e3c0dee13722ac223",
+    "url": "/portfolio/static/js/2.e45f4238.chunk.js"
   },
   {
-    "revision": "7812449d7e134b7f2bcf",
-    "url": "/portfolio/static/js/main.6f05f633.chunk.js"
+    "revision": "86f2120e6cbedf8d4d18",
+    "url": "/portfolio/static/js/main.26efa949.chunk.js"
   },
   {
     "revision": "6b26cb3bc1b9147ba086",
@@ -36,19 +36,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/acessibilidade-digital.fa51e948.png"
   },
   {
-    "revision": "0a1bd5a37a3ac330e1e0c8796c52979a",
-    "url": "/portfolio/static/media/bold-components.0a1bd5a3.svg"
+    "revision": "d9ec5d53e6d61ca98acfe9d55f8730c4",
+    "url": "/portfolio/static/media/bold-components.d9ec5d53.svg"
   },
   {
-    "revision": "489a55f89c44a230d68c70c4b05574e8",
-    "url": "/portfolio/static/media/logo.489a55f8.svg"
+    "revision": "05fed91fcafd5f109abef44817ca87cf",
+    "url": "/portfolio/static/media/logo-carol.05fed91f.svg"
   },
   {
     "revision": "e0850b04463476a9df9ad8931a17db69",
     "url": "/portfolio/static/media/tests.e0850b04.png"
   },
   {
-    "revision": "da4e82d571ec426441f3e9d0e9cae5d4",
-    "url": "/portfolio/static/media/tot-project.da4e82d5.svg"
+    "revision": "c2a36ec6513b0c03d13aeca1b9252669",
+    "url": "/portfolio/static/media/tot-project.c2a36ec6.svg"
   }
 ]);
