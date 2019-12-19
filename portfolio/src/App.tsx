@@ -50,7 +50,7 @@ const App: React.FC = () => {
         <section id="about" className="About">
           <Grid direction="row" alignItems="baseline" justifyContent="center">
             <Cell xs={10} lg={11}>
-              <p className="SectionTitle">Stay in touch</p>
+              <p className="SectionTitle">Mantenha contato</p>
             </Cell>
           </Grid>
           <Grid
