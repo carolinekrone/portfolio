@@ -58,7 +58,7 @@ const App: React.FC = () => {
             alignItems="baseline"
             justifyContent="space-around"
           >
-            <Cell xs={10} lg={5}>
+            <Cell xs={10} lg={4}>
               <Cell className="SocialLinks">
                 <a
                   href="https://www.linkedin.com/in/carolinekrone/"
@@ -90,7 +90,7 @@ const App: React.FC = () => {
                 </a>
               </Cell>
             </Cell>
-            <Cell xs={10} lg={5}>
+            <Cell xs={10} lg={6}>
               <p>
                 I'm a 24-years-old product designer based in Florianópolis/SC,
                 currently working at Laboratório Bridge (UFSC) and helping to
