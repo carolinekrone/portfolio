@@ -15,13 +15,13 @@ const App: React.FC = () => {
             ></img>
           </Cell>
           <Cell>
-            <a href="/portfolio/#about">About</a>
+            <a href="/portfolio/#about">Sobre mim</a>
           </Cell>
           <Cell>
-            <a href="/portfolio/#work">Work</a>
+            <a href="/portfolio/#work">Trabalhos</a>
           </Cell>
           <Cell>
-            <a href="/portfolio/#talks">Talks</a>
+            <a href="/portfolio/#talks">Palestrinhas</a>
           </Cell>
         </Grid>
       </header>
@@ -30,19 +30,19 @@ const App: React.FC = () => {
           <Grid direction="row" alignItems="center" justifyContent="flex-start">
             <Cell xs={12} lg={6}>
               <h1>
-                Hello, I'm Carol! <span>&#128075;</span>{" "}
+                Olá, eu sou a Carol! <span>&#128075;</span>{" "}
               </h1>
               <p>
-                A <span className="Product Underline">product designer</span>{" "}
-                based in Florianópolis/SC{" "}
+                Uma <span className="Product Underline">product designer</span>{" "}
+                morando em Florianópolis/SC{" "}
                 <span className="Floripa Underline">
                   (aka Floripa mó querido)
                 </span>
-                , fighting to make{" "}
-                <span className="Ideas Underline">good ideas</span> more
-                accessible.
+                , lutando para tornar{" "}
+                <span className="Ideas Underline">boas ideias</span> mais
+                acessíveis.
                 <br></br>
-                Also, I like gifs. <span>&#128129;</span>
+                Ah, eu também gosto de gifs. <span>&#128129;</span>
               </p>
             </Cell>
           </Grid>
@@ -92,14 +92,14 @@ const App: React.FC = () => {
             </Cell>
             <Cell xs={10} lg={6}>
               <p>
-                I'm a 24-years-old product designer based in Florianópolis/SC,
-                currently working at Laboratório Bridge (UFSC) and helping to
-                improve public health in Brazil. Design is an interdisciplinary
-                discipline, and for this, I am always studying psychology,
-                ethics and technology, seeking to establish a systemic view of
-                the project. In my spare time, you can probably find me rowing
-                (outrigger canoe), trekking, drinking beer or reading a good
-                book.
+                Uma designer de produto de 24 anos, morando em Florianópolis/SC,
+                atualmente trabalhando no Laboratório Bridge (UFSC) e ajudando a
+                melhorar a saúde pública no Brasil. O design é uma disciplina
+                interdisciplinar e, para isso, estou sempre estudando
+                psicologia, ética e tecnologia, buscando estabelecer uma visão
+                sistêmica do projeto. No meu tempo livre, você provavelmente
+                pode me encontrar remando (canoa havaiana), trilhando, bebendo
+                cerveja ou lendo um bom livro.
               </p>
               <span>&#127817; &#127866; &#128758; &#127944; &#127754;</span>
             </Cell>
@@ -110,7 +110,7 @@ const App: React.FC = () => {
             <Cell xs={9}>
               <h2>Work, work, work</h2>
               <span>
-                Here you can find some of my latest work and projects.
+                Aqui você encontra alguns dos meus últimos trabalhos e projetos.
               </span>{" "}
               <br></br>
               <br></br>
@@ -121,8 +121,9 @@ const App: React.FC = () => {
               <article className="Card">
                 <h3>Bold design system</h3>
                 <p>
-                  Bold is a open source and accessible design system developed
-                  to the Laboratório Bridge. Bold exports light and dark themes.{" "}
+                  Bold é um Design System acessível e open source desenvolvido
+                  para o laboratório Bridge. É totalmente customizável e conta
+                  com os temas <em>light e dark.</em>{" "}
                 </p>
                 <a
                   href="https://bold.bridge.ufsc.br/en/"
@@ -130,7 +131,7 @@ const App: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Go to Bold Design System
+                  Acesse o Bold Design System
                 </a>{" "}
                 <br></br>
                 <img
@@ -143,9 +144,8 @@ const App: React.FC = () => {
               <div className="Card">
                 <h3>TOT App</h3>
                 <p>
-                  Application developed to the professional speech therapists,
-                  with the purpose of assisting them in the treatment of their
-                  patients.{" "}
+                  Aplicativo desenvolvido para os fonoaudiólogos profissionais,
+                  com o objetivo de ajudá-los no tratamento de seus pacientes.{" "}
                 </p>
                 <a
                   href="https://www.behance.net/gallery/75141515/TOT-Speech-Therapy-APP-UIUX-design"
@@ -153,7 +153,7 @@ const App: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Checkout the TOT project
+                  Projeto TOT no behance
                 </a>
                 <br></br>
                 <img
@@ -164,12 +164,12 @@ const App: React.FC = () => {
             </Cell>
             <Cell xs={12} lg={3} alignSelf="stretch">
               <div className="Card">
-                <h3>Financial website redesign</h3>
+                <h3>Redesign de site financeiro</h3>
                 <p>
-                  Redesign of an financial website. The challenge was to
-                  organize the information architecture in a clear and
-                  synthesized way while ensuring that no important content was
-                  leaved out.{" "}
+                  Redesign de um site financeiro. O desafio era organizar a
+                  arquitetura da informação de maneira clara e sintetizada, e ao
+                  mesmo tempo garantir que nenhum conteúdo importante fosse
+                  deixado de lado.{" "}
                 </p>
                 <a
                   href="https://www.behance.net/gallery/89187653/Financial-website-redesign"
@@ -177,7 +177,7 @@ const App: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Checkout the redesign project
+                  Projeto Redesign no behance
                 </a>
                 <br></br>
                 <img
@@ -191,18 +191,18 @@ const App: React.FC = () => {
               <div className="Card">
                 <h3>Acessibilidade digital</h3>
                 <p>
-                  Acessibilidade Digital (digital accessibility) is a site I
-                  created for my undergraduate thesis to test the accessibility
-                  of Bold components. There I also listed some important
-                  articles about the web accessibility.{" "}
+                  Acessibilidade Digital é um site que eu criei para minha tese
+                  de graduação para testar a acessibilidade dos componentes
+                  Bold. Também listei alguns artigos importantes sobre a
+                  acessibilidade na web.{" "}
                 </p>
                 <a
                   href="https://carolinekrone.github.io/a11y-tests/"
-                  aria-label="Acessibilidade digital site"
+                  aria-label="Acessibilidade digital website"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Learn more about accessibility
+                  Aprenda mais sobre acessibilidade
                 </a>
                 <br></br>
                 <img
@@ -217,11 +217,11 @@ const App: React.FC = () => {
         <section className="Talks" id="talks">
           <Grid direction="column" alignItems="center" justifyContent="center">
             <Cell lg={6} xs={10}>
-              <h2>Talks</h2>
+              <h2>Palestrinhas</h2>
               <span>
-                Recently I've been lecturing on two topics that I love and
-                studied a lot about: accessibility and design systems. Enjoy and
-                keep sharing the knowledge.
+                Recentemente eu tenho palestrado sobre dois temas que eu amo e
+                estudo bastante: acessibilidade e Design Systems. Aproveite o
+                conteúdo e compartilhe o conhecimento!
               </span>
               <br></br>
               <br></br>
@@ -249,9 +249,8 @@ const App: React.FC = () => {
                   Bold Design System
                 </a>
                 <p>
-                  Talk presented at ILA 2019 Medellin/CO. How we build an
-                  accessible and open source design system to the Laboratorio
-                  Bridge. (PT-BR)
+                  Palestra apresentado no ILA 2019 Medellin/CO, sobre como foi o
+                  processo de construção do Bold.
                 </p>
               </div>
             </Cell>
@@ -271,14 +270,14 @@ const App: React.FC = () => {
                   Acessibilidade Digital
                 </a>
                 <p>
-                  Why accessibility is important and 9 tips for designers to
-                  build accessible products. (PT-BR)
+                  Sobre a impotância da acessibilidade e 9 dicas de como
+                  Designers podem fazer um trabalho acessível.
                 </p>
               </div>
             </Cell>
             <Cell xs={10} lg={3}>
               <div>
-                <h3>Accessibility tests</h3>
+                <h3>Testes de acessibilidade</h3>
                 <img
                   src={require("./static/image/tests.png")}
                   alt="Accessibility tests"
@@ -289,11 +288,11 @@ const App: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Accessibility tests
+                  Testes de acessibilidade
                 </a>
                 <p>
-                  Presentation of how to perform accessibility tests given to
-                  the bridge QA team. (PT-BR)
+                  Apresentação para a equipe de qualidade de software do
+                  laboratório Bridge.
                 </p>
               </div>
             </Cell>

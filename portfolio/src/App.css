@@ -174,7 +174,7 @@ a:hover {
 }
 
 .Work {
-  min-height: 90vh;
+  min-height: 70vh;
   color: #fff;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -194,7 +194,7 @@ a:hover {
 
 .Card {
   text-align: left;
-  min-height: 80vh;
+  min-height: 60vh;
   background-color: #fff;
   color: #151515;
   padding: 2% 6% 10% 10%;
