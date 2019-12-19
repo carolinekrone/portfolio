@@ -18,7 +18,7 @@ const App: React.FC = () => {
             <a href="/#work">Work</a>
           </Cell>
           <Cell>
-            <a href="/#contact">Contact</a>
+            <a href="/#talks">Talks</a>
           </Cell>
         </Grid>
       </header>
@@ -55,7 +55,7 @@ const App: React.FC = () => {
             alignItems="baseline"
             justifyContent="space-around"
           >
-            <Cell className="SocialLinks" xs={12} lg={3}>
+            <Cell className="SocialLinks" xs={11} lg={3}>
               <a
                 href="https://www.linkedin.com/in/carolinekrone/"
                 aria-label="Caroline Krone profile on Linkedin"
@@ -65,7 +65,7 @@ const App: React.FC = () => {
                 Linkedin
               </a>
             </Cell>
-            <Cell className="SocialLinks" xs={12} lg={3}>
+            <Cell className="SocialLinks" xs={11} lg={3}>
               <a
                 href="https://www.behance.net/kronecaroline"
                 aria-label="Caroline Krone profile on Behance"
@@ -89,10 +89,12 @@ const App: React.FC = () => {
               <p>
                 I'm a 24-years-old product designer based in Florianópolis/SC,
                 currently working at Laboratório Bridge (UFSC) and helping to
-                improve public health in Brazil. I believe that great design has
-                the power to transform the reality where it is inserted. At my
-                spare time, you can probably find me rowing (outrigger canoe),
-                trekking or reading a good book.
+                improve public health in Brazil. Design is an interdisciplinary
+                discipline, and for this, I am always studying psychology,
+                ethics and technology, seeking to establish a systemic view of
+                the project. In my spare time, you can probably find me rowing
+                (outrigger canoe), trekking, drinking beer or reading a good
+                book.
               </p>
               <span>&#127817; &#127866; &#128758; &#127944; &#127754;</span>
             </Cell>
@@ -110,75 +112,104 @@ const App: React.FC = () => {
             </Cell>
           </Grid>
           <Grid direction="row" alignItems="stretch" gap={0} gapVertical={0}>
-            <Cell xs={12} lg={3} alignSelf="stretch" className="Card">
-              <h3>Bold design system</h3>
-              <p>
-                Bold is a open source and accessible design system developed to
-                the Laboratório Bridge. Bold exports light and dark themes.{" "}
-              </p>
-              <a
-                href="https://bold.bridge.ufsc.br/en/"
-                aria-label="Bold design system"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Go to Bold Design System
-              </a>
+            <Cell xs={12} lg={3} alignSelf="stretch">
+              <article className="Card">
+                <h3>Bold design system</h3>
+                <p>
+                  Bold is a open source and accessible design system developed
+                  to the Laboratório Bridge. Bold exports light and dark themes.{" "}
+                </p>
+                <a
+                  href="https://bold.bridge.ufsc.br/en/"
+                  aria-label="Bold design system"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go to Bold Design System
+                </a>{" "}
+                <br></br>
+                <img
+                  src={require("./static/image/bold-components.svg")}
+                  alt="bold components"
+                ></img>
+              </article>
             </Cell>
-            <Cell xs={12} lg={3} alignSelf="stretch" className="Card">
-              <h3>TOT App</h3>
-              <p>
-                Application developed to the professional speech therapists,
-                with the purpose of assisting them in the treatment of their
-                patients.{" "}
-              </p>
-              <a
-                href="https://www.behance.net/gallery/75141515/TOT-Speech-Therapy-APP-UIUX-design"
-                aria-label="TOT APP on Behance"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Checkout the TOT project
-              </a>
+            <Cell xs={12} lg={3} alignSelf="stretch">
+              <div className="Card">
+                <h3>TOT App</h3>
+                <p>
+                  Application developed to the professional speech therapists,
+                  with the purpose of assisting them in the treatment of their
+                  patients.{" "}
+                </p>
+                <a
+                  href="https://www.behance.net/gallery/75141515/TOT-Speech-Therapy-APP-UIUX-design"
+                  aria-label="TOT APP on Behance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Checkout the TOT project
+                </a>
+                <br></br>
+                <img
+                  src={require("./static/image/tot-project.svg")}
+                  alt="tot project on behance"
+                ></img>
+              </div>
             </Cell>
-            <Cell xs={12} lg={3} alignSelf="stretch" className="Card">
-              <h3>Financial website redesign</h3>
-              <p>
-                Redesign of an financial website. The challenge was to organize
-                the information architecture in a clear and synthesized way
-                while ensuring that no important content was leaved out.{" "}
-              </p>
-              <a
-                href="https://www.behance.net/gallery/89187653/Financial-website-redesign"
-                aria-label="Redesign project on Behance"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Checkout the redesign project
-              </a>
+            <Cell xs={12} lg={3} alignSelf="stretch">
+              <div className="Card">
+                <h3>Financial website redesign</h3>
+                <p>
+                  Redesign of an financial website. The challenge was to
+                  organize the information architecture in a clear and
+                  synthesized way while ensuring that no important content was
+                  leaved out.{" "}
+                </p>
+                <a
+                  href="https://www.behance.net/gallery/89187653/Financial-website-redesign"
+                  aria-label="Redesign project on Behance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Checkout the redesign project
+                </a>
+                <br></br>
+                <img
+                  src={require("./static/image/abbilon.png")}
+                  alt="abbilon project"
+                ></img>
+              </div>
             </Cell>
 
-            <Cell xs={12} lg={3} alignSelf="stretch" className="Card">
-              <h3>Acessibilidade digital</h3>
-              <p>
-                Acessibilidade Digital (digital accessibility) is a site I
-                created for my undergraduate thesis to test the accessibility of
-                Bold components. There I also listed some important articles
-                about the web accessibility.{" "}
-              </p>
-              <a
-                href="https://carolinekrone.github.io/a11y-tests/"
-                aria-label="Acessibilidade digital site"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Learn more about accessibility
-              </a>
+            <Cell xs={12} lg={3} alignSelf="stretch">
+              <div className="Card">
+                <h3>Acessibilidade digital</h3>
+                <p>
+                  Acessibilidade Digital (digital accessibility) is a site I
+                  created for my undergraduate thesis to test the accessibility
+                  of Bold components. There I also listed some important
+                  articles about the web accessibility.{" "}
+                </p>
+                <a
+                  href="https://carolinekrone.github.io/a11y-tests/"
+                  aria-label="Acessibilidade digital site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Learn more about accessibility
+                </a>
+                <br></br>
+                <img
+                  src={require("./static/image/acessibilidade-digital.png")}
+                  alt="digital accessibility website"
+                ></img>
+              </div>
             </Cell>
           </Grid>
         </section>
 
-        <section className="Talks">
+        <section className="Talks" id="talks">
           <Grid direction="column" alignItems="center" justifyContent="center">
             <Cell lg={6} xs={10}>
               <h2>Talks</h2>
@@ -255,10 +286,31 @@ const App: React.FC = () => {
             </Cell>
           </Grid>
         </section>
-        <section id="contact">
-          <Grid direction="row" alignItems="baseline" justifyContent="center">
-            <Cell></Cell>
-            <Cell></Cell>
+        <section id="contact" className="Contact">
+          <Grid direction="row" alignItems="center" justifyContent="center">
+            <Cell>
+              <p>
+                This site ia a WIP and is made with &#128147; +{" "}
+                <a
+                  href="https://bold.bridge.ufsc.br/en/"
+                  aria-label="Bold design system"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Bold Design System
+                </a>{" "}
+                +{" "}
+                <a
+                  href="https://create-react-app.dev/docs/getting-started/"
+                  aria-label="Create react app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Create react app
+                </a>
+                . You can contact me by email kronecaroline@gmail.com{" "}
+              </p>
+            </Cell>
           </Grid>
         </section>
       </div>
