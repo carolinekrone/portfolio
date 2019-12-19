@@ -33,7 +33,8 @@ const App: React.FC = () => {
                 Olá, eu sou a Carol! <span>&#128075;</span>{" "}
               </h1>
               <p>
-                Uma <span className="Product Underline">product designer</span>{" "}
+                Uma{" "}
+                <span className="Product Underline">designer de produto</span>{" "}
                 morando em Florianópolis/SC{" "}
                 <span className="Floripa Underline">
                   (aka Floripa mó querido)
@@ -350,7 +351,7 @@ const App: React.FC = () => {
           <Grid alignItems="center" className=" ">
             <Cell lg={12}>
               <p>
-                This site is a WIP and it's made with &#128147; +{" "}
+                Esse site está em construção e foi feito com &#128147; +{" "}
                 <a
                   href="https://bold.bridge.ufsc.br/en/"
                   aria-label="Bold design system"
