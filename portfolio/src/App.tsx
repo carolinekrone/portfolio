@@ -8,7 +8,7 @@ const App: React.FC = () => {
     <div className="App">
       <header className="Header">
         <Grid direction="row" justifyContent="space-around">
-          <Cell xs={1} lg={7}>
+          <Cell xs={1} lg={8}>
             <img
               src={require("./static/image/logo-carol.svg")}
               alt="CK logo"
