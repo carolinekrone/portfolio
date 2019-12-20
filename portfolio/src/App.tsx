@@ -145,12 +145,13 @@ const App: React.FC = () => {
               <div className="Card">
                 <h3>TOT App</h3>
                 <p>
-                  Aplicativo desenvolvido para os fonoaudiólogos profissionais,
-                  com o objetivo de ajudá-los no tratamento de seus pacientes.{" "}
+                  Aplicativo desenvolvido para os profissionais da
+                  fonoaudiologia com o objetivo de ajudá-los no tratamento de
+                  seus pacientes.{" "}
                 </p>
                 <a
                   href="https://www.behance.net/gallery/75141515/TOT-Speech-Therapy-APP-UIUX-design"
-                  aria-label="TOT APP on Behance"
+                  aria-label="TOT APP no Behance"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -159,7 +160,7 @@ const App: React.FC = () => {
                 <br></br>
                 <img
                   src={require("./static/image/tot-project.svg")}
-                  alt="tot project on behance"
+                  alt="tot project no behance"
                 ></img>
               </div>
             </Cell>
@@ -174,7 +175,7 @@ const App: React.FC = () => {
                 </p>
                 <a
                   href="https://www.behance.net/gallery/89187653/Financial-website-redesign"
-                  aria-label="Redesign project on Behance"
+                  aria-label="Projeto redesign no Behance"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -183,7 +184,7 @@ const App: React.FC = () => {
                 <br></br>
                 <img
                   src={require("./static/image/abbilon.png")}
-                  alt="abbilon project"
+                  alt="Projeto abbilon no behance"
                 ></img>
               </div>
             </Cell>
@@ -208,7 +209,7 @@ const App: React.FC = () => {
                 <br></br>
                 <img
                   src={require("./static/image/acessibilidade-digital.png")}
-                  alt="digital accessibility website"
+                  alt="Acessibilidade digital website"
                 ></img>
               </div>
             </Cell>
