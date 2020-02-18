@@ -37,11 +37,11 @@ const App: React.FC = () => {
                 <span className="Product Underline">designer de produto</span>{" "}
                 morando em Florianópolis/SC{" "}
                 <span className="Floripa Underline">
-                  (aka Floripa mó querido)
+                  (Floripa mó querido)
                 </span>
                 , lutando para tornar{" "}
                 <span className="Ideas Underline">boas ideias</span> mais
-                acessíveis.
+                acessíveis. Meu foco atual de estudo é acessibilidade, ética e Design System OPS.
                 <br></br>
                 Ah, eu também gosto de gifs. <span>&#128129;</span>
               </p>
@@ -93,14 +93,10 @@ const App: React.FC = () => {
             </Cell>
             <Cell xs={10} lg={6}>
               <p>
-                Uma designer de produto de 24 anos, morando em Florianópolis/SC,
-                atualmente trabalhando no Laboratório Bridge (UFSC) e ajudando a
-                melhorar a saúde pública no Brasil. O design é uma disciplina
-                interdisciplinar e, para isso, estou sempre estudando
-                psicologia, ética e tecnologia, buscando estabelecer uma visão
-                sistêmica do projeto. No meu tempo livre, você provavelmente
-                pode me encontrar remando (canoa havaiana), trilhando, bebendo
-                cerveja ou lendo um bom livro.
+              Uma designer de produto de 25 anos, morando em Florianópolis/SC, atualmente trabalhando no Laboratório Bridge (UFSC) e ajudando a melhorar a saúde pública no Brasil. 
+O design é uma disciplina interdisciplinar e, para isso, estou sempre estudando psicologia, ética e tecnologia, buscando estabelecer uma visão sistêmica do projeto. 
+Nos meus projetos busco encontrar o equilíbrio entre a melhor experiência de usuário possível com as necessidades do cliente.  Estou habituada a trabalhar em ambientes ágeis, com comunicação e feedback constantes. 
+No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerveja ou ler um bom livro.
               </p>
               <span>&#127817; &#127866; &#128758; &#127944; &#127754;</span>
             </Cell>
