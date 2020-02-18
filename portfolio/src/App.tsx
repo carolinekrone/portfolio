@@ -41,7 +41,7 @@ const App: React.FC = () => {
                 </span>
                 , lutando para tornar{" "}
                 <span className="Ideas Underline">boas ideias</span> mais
-                acessíveis. Meu foco atual de estudo é acessibilidade, ética e Design System OPS.
+                acessíveis. Meu foco atual de estudo é acessibilidade e Design System OPS.
                 <br></br>
                 Ah, eu também gosto de gifs. <span>&#128129;</span>
               </p>
