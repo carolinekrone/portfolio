@@ -157,9 +157,8 @@ const App: React.FC = () => {
               <div className="Card">
                 <h3>TOTVS MinhaCoop App</h3>
                 <p>
-                  Mobile app developed to facilitate communication between 
-                  anesthesiologists and the organization. Using computer vision skills and a conversation-like experience, 
-                  the app automates the process of sending bulletins for payment without having to fill out paper forms{" "}
+                  Mobile app developed for anesthesiologists. Using computer vision skills and a conversation-like experience, 
+                  the app automates the process of sending bulletins for payment without having to fill out paper forms.{" "}
                 </p>
                 <a
                   href="https://www.behance.net/gallery/112623629/TOTVS-Carol-MinhaCoop"
