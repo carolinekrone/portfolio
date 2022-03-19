@@ -15,13 +15,13 @@ const App: React.FC = () => {
             ></img>
           </Cell>
           <Cell>
-            <a href="/portfolio/#about">Sobre mim</a>
+            <a href="/portfolio/#about">About me</a>
           </Cell>
           <Cell>
-            <a href="/portfolio/#work">Trabalhos</a>
+            <a href="/portfolio/#work">Work</a>
           </Cell>
           <Cell>
-            <a href="/portfolio/#talks">Palestrinhas</a>
+            <a href="/portfolio/#talks">Talks</a>
           </Cell>
         </Grid>
       </header>
@@ -30,20 +30,20 @@ const App: React.FC = () => {
           <Grid direction="row" alignItems="center" justifyContent="flex-start">
             <Cell xs={12} lg={6}>
               <h1>
-                Olá, eu sou a Carol! <span>&#128075;</span>{" "}
+                Hello, I'm Carol! <span>&#128075;</span>{" "}
               </h1>
               <p>
-                Uma{" "}
-                <span className="Product Underline">designer de produto</span>{" "}
-                morando em Florianópolis/SC{" "}
+                A{" "}
+                <span className="Product Underline">product designer</span>{" "}
+                living in the {" "}
                 <span className="Floripa Underline">
-                  (Floripa mó querido)
+                  north shore{" "}
                 </span>
-                , lutando para tornar{" "}
-                <span className="Ideas Underline">boas ideias</span> mais
-                acessíveis. Meu foco atual de estudo é acessibilidade e Design System OPS.
+                of São Paulo - Brazil.{" "}
                 <br></br>
-                Ah, eu também gosto de gifs. <span>&#128129;</span>
+                Recently, my focus centers around
+                emerging technologies, like UX of {" "} <span className="AI Underline">Artificial Intelligence</span>{" "}and crypto.
+                Also, I like gifs. <span>&#128129;</span>
               </p>
             </Cell>
           </Grid>
@@ -51,7 +51,7 @@ const App: React.FC = () => {
         <section id="about" className="About">
           <Grid direction="row" alignItems="baseline" justifyContent="center">
             <Cell xs={10} lg={11}>
-              <p className="SectionTitle">Mantenha contato</p>
+              <p className="SectionTitle">Get in touch</p>
             </Cell>
           </Grid>
           <Grid
@@ -93,12 +93,19 @@ const App: React.FC = () => {
             </Cell>
             <Cell xs={10} lg={6}>
               <p>
-              Uma designer de produto de 25 anos, morando em Florianópolis/SC, atualmente trabalhando no Laboratório Bridge (UFSC) e ajudando a melhorar a saúde pública no Brasil. 
-O design é uma disciplina interdisciplinar e, para isso, estou sempre estudando psicologia, ética e tecnologia, buscando estabelecer uma visão sistêmica do projeto. 
-Nos meus projetos busco encontrar o equilíbrio entre a melhor experiência de usuário possível com as necessidades do cliente.  Estou habituada a trabalhar em ambientes ágeis, com comunicação e feedback constantes. 
-No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerveja ou ler um bom livro.
+                27 years old product designer, I have experience in usability, accessibility, and design systems. <br></br>
+                Design is an interdisciplinary discipline and, for that, I am always studying psychology, ethics, and technology, seeking to establish a systemic view of the project.
+                <br></br> <br></br>
+                Recently, my focus centers around emerging technologies, like UX of Artificial Intelligence and crypto. <br></br>
+                <br></br>
+                Currently, I'm working at TOTVS Labs, TOTVS 'innovation laboratory, which focuses on research projects with innovative technology like computer vision and machine learning.
+                <br></br>
+                <br></br>
+                In my spare time, I enjoy paddling (Hawaiian canoe), surfing, going to the beach, drinking beer or reading a good book.
               </p>
               <span>&#127817; &#127866; &#128758; &#127944; &#127754;</span>
+              <br></br>
+              <br></br><br></br>
             </Cell>
           </Grid>
         </section>
@@ -107,7 +114,7 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
             <Cell xs={9}>
               <h2>Work, work, work</h2>
               <span>
-                Aqui você encontra alguns dos meus últimos trabalhos e projetos.
+                Here you can find some of my works and projects.
               </span>{" "}
               <br></br>
               <br></br>
@@ -118,9 +125,8 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
               <article className="Card">
                 <h3>Bold design system</h3>
                 <p>
-                  Bold é um Design System acessível e open source desenvolvido
-                  para o laboratório Bridge. É totalmente customizável e conta
-                  com os temas <em>light e dark.</em>{" "}
+                  Bold is an accessible, open source Design System developed for the Bridge lab.
+                  It is fully customizable and has themes <em>light and dark.</em>{" "}
                 </p>
                 <a
                   href="https://bold.bridge.ufsc.br/en/"
@@ -128,9 +134,19 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Acesse o Bold Design System
+                  Bold website
+                </a>{" "}
+                <br></br><br></br>
+                <a
+                  href=" https://www.behance.net/gallery/139757831/Bold-Design-System"
+                  aria-label="Bold design system on Behance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Project on Behance
                 </a>{" "}
                 <br></br>
+
                 <img
                   src={require("./static/image/bold-components.svg")}
                   alt="bold components"
@@ -139,35 +155,35 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
             </Cell>
             <Cell xs={12} lg={3} alignSelf="stretch">
               <div className="Card">
-                <h3>TOT App</h3>
+                <h3>TOTVS MinhaCoop App</h3>
                 <p>
-                  Aplicativo desenvolvido para os profissionais da
-                  fonoaudiologia com o objetivo de ajudá-los no tratamento de
-                  seus pacientes.{" "}
+                  Mobile app developed to facilitate communication between 
+                  anesthesiologists and the organization. Using computer vision skills and a conversation-like experience, 
+                  the app automates the process of sending bulletins for payment without having to fill out paper forms{" "}
                 </p>
                 <a
-                  href="https://www.behance.net/gallery/75141515/TOT-Speech-Therapy-APP-UIUX-design"
-                  aria-label="TOT APP no Behance"
+                  href="https://www.behance.net/gallery/112623629/TOTVS-Carol-MinhaCoop"
+                  aria-label="TOTVS APP on Behance"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Projeto TOT no behance
+                  TOTVS Carol MinhaCoop on behance
                 </a>
                 <br></br>
                 <img
-                  src={require("./static/image/tot-project.svg")}
+                  src={require("./static/image/totvs-minhacoop.png")}
                   alt="tot project no behance"
                 ></img>
               </div>
             </Cell>
             <Cell xs={12} lg={3} alignSelf="stretch">
               <div className="Card">
-                <h3>Redesign de site financeiro</h3>
+                <h3>Redesign financial app</h3>
                 <p>
-                  Redesign de um site financeiro. O desafio era organizar a
-                  arquitetura da informação de maneira clara e sintetizada, e ao
-                  mesmo tempo garantir que nenhum conteúdo importante fosse
-                  deixado de lado.{" "}
+                  Redesign of a financial website. The challenge was to organize the
+                  information architecture in a clear and synthesized way, and
+                  at the same time ensuring that no important content was
+                  left aside.{" "}
                 </p>
                 <a
                   href="https://www.behance.net/gallery/89187653/Financial-website-redesign"
@@ -175,7 +191,7 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Projeto Redesign no behance
+                  Redesign project on behance
                 </a>
                 <br></br>
                 <img
@@ -187,12 +203,12 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
 
             <Cell xs={12} lg={3} alignSelf="stretch">
               <div className="Card">
-                <h3>Acessibilidade digital</h3>
+                <h3>Digital Accessibility</h3>
                 <p>
-                  Acessibilidade Digital é um site que eu criei para minha tese
-                  de graduação para testar a acessibilidade dos componentes
-                  Bold. Também listei alguns artigos importantes sobre a
-                  acessibilidade na web.{" "}
+                  Digital Accessibility (in PT) is a website I created for my thesis
+                  graduation to test the accessibility of the Bold components.
+                  I also listed some important articles about the
+                  accessibility on the web.{" "}
                 </p>
                 <a
                   href="https://carolinekrone.github.io/a11y-tests/"
@@ -200,7 +216,7 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Aprenda mais sobre acessibilidade
+                  Learn more about accessibility
                 </a>
                 <br></br>
                 <img
@@ -215,11 +231,11 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
         <section className="Talks" id="talks">
           <Grid direction="column" alignItems="center" justifyContent="center">
             <Cell lg={6} xs={10}>
-              <h2>Palestrinhas</h2>
+              <h2>Talks</h2>
               <span>
-                Recentemente eu tenho palestrado sobre dois temas que eu amo e
-                estudo bastante: acessibilidade e Design Systems. Aproveite o
-                conteúdo e compartilhe o conhecimento!
+                Some lectures on two topics that I love and
+                study a lot: accessibility and design systems. Enjoy the
+                content and share the knowledge!
               </span>
               <br></br>
               <br></br>
@@ -247,8 +263,8 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
                   Bold Design System
                 </a>
                 <p>
-                  Palestra apresentado no ILA 2019 Medellin/CO, sobre como foi o
-                  processo de construção do Bold.
+                  Talk presented at ILA 2019 Medellin/CO, about how the
+                  Bold construction process.
                 </p>
               </div>
             </Cell>
@@ -265,17 +281,17 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Acessibilidade Digital
+                  Digital accessibility
                 </a>
                 <p>
-                  Sobre a impotância da acessibilidade e 9 dicas de como
-                  Designers podem fazer um trabalho acessível.
+                  About the importance of accessibility and 9 tips on how
+                  Designers can do an accessible work.
                 </p>
               </div>
             </Cell>
             <Cell xs={10} lg={3}>
               <div>
-                <h3>Testes de acessibilidade</h3>
+                <h3>Usability tests</h3>
                 <img
                   src={require("./static/image/tests.png")}
                   alt="Accessibility tests"
@@ -286,11 +302,11 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Testes de acessibilidade
+                  Usability tests
                 </a>
                 <p>
-                  Apresentação para a equipe de qualidade de software do
-                  laboratório Bridge.
+                  Presentation to the software quality team at
+                  Bridge laboratory.
                 </p>
               </div>
             </Cell>
@@ -335,9 +351,9 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
               </div>
             </Cell>
             <Cell xs={12} lg={5}>
-              <p className="BigText">Não se acanhe!</p>
+              <p className="BigText">Don't be shy!</p>
               <p>
-                Você também pode me contatar pelo e-mail{" "}
+                You can also contact me by email{" "}
                 <a href="mailto:kronecaroline@gmail.com">
                   kronecaroline@gmail.com
                 </a>
@@ -348,7 +364,7 @@ No meu tempo livre, eu gosto de remar (canoa havaiana), ir à praia, beber cerve
           <Grid alignItems="center" className=" ">
             <Cell lg={12}>
               <p>
-                Esse site está em construção e foi feito com &#128147; +{" "}
+                This website was made with &#128147; +{" "}
                 <a
                   href="https://bold.bridge.ufsc.br/en/"
                   aria-label="Bold design system"
